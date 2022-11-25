@@ -11,7 +11,9 @@ module.exports = {
       lightgreen : '#54C673',
       orange : '#FA7706',
       green : '#77FA06',
-      blue : '#45B7FF'
+      blue : '#45B7FF',
+      offwhite : '#FAFAFA',
+      black : '#000000'
     },
     extend: {
       screens : {
