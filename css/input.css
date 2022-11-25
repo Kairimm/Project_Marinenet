@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Helvatica Neue";
+    src: url("/fonts/Helvetica-Normal.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Helvatica Neue";
+    src: url("/fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Helvatica Neue";
+    src: url("/fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.ttf");
+    font-weight: 600;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
