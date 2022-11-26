@@ -1167,11 +1167,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-\[20rem\] {
-  padding-top: 20rem;
-  padding-bottom: 20rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1200,16 +1195,16 @@ video {
   padding-bottom: 6.5rem;
 }
 
+.pb-\[10rem\] {
+  padding-bottom: 10rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
 
-.pb-\[20rem\] {
-  padding-bottom: 20rem;
-}
-
-.pb-\[10rem\] {
-  padding-bottom: 10rem;
+.pb-\[12rem\] {
+  padding-bottom: 12rem;
 }
 
 .text-center {
@@ -1405,21 +1400,12 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .sm\:py-\[20rem\] {
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-  }
-
   .sm\:pb-\[9rem\] {
     padding-bottom: 9rem;
   }
 
   .sm\:pt-24 {
     padding-top: 6rem;
-  }
-
-  .sm\:pb-\[10rem\] {
-    padding-bottom: 10rem;
   }
 }
 
