@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_22" data-name="Group 22" transform="translate(-964 -250)">
+    <g id="Rectangle_32" data-name="Rectangle 32" transform="translate(964 250)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="30" height="30" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="6.5" fill="none"/>
+    </g>
+    <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M24.959,20.08h0L18.1,13.225l6.854-6.855h0a.708.708,0,0,0,0-1L21.721,2.134a.708.708,0,0,0-1,0h0L13.868,8.989,7.014,2.134h0a.708.708,0,0,0-1,0L2.777,5.372a.708.708,0,0,0,0,1h0l6.855,6.855L2.777,20.08h0a.708.708,0,0,0,0,1l3.238,3.238a.708.708,0,0,0,1,0h0l6.855-6.855,6.855,6.855h0a.708.708,0,0,0,1,0l3.238-3.238a.708.708,0,0,0,0-1Z" transform="translate(965.132 251.775)"/>
+  </g>
+</svg>
