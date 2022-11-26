@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Thank you</title>
     <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body class="font-helvatica bg-offwhite">
@@ -14,40 +14,35 @@
         </div>
     </header>
 
-    <main class="px-8 md:max-w-xl md:mx-auto sm:py-4 sm:pb-[9rem] md:pb-0">
-        <div>
-            <p class="text-lightgrey text-sm text-center py-2">What issues are you currently facing?</p>
-            <form action="./help-thanks.html" class="flex flex-col">
-                <div class="flex mx-auto w-[95%]">
-                    <label for="issues"></label>
-                    <textarea id="issues" class="shadow-md rounded-xl w-full h-24 px-4 py-3"></textarea>
-                </div>
-                <div class="flex flex-col py-8 gap-4 w-[95%] mx-auto">
-                    <label for="cause" class="text-lightgrey text-sm text-center">What part do you think might cause the problem?</label>
-                    <select id="cause" class="h-12 rounded-xl shadow-md px-6">
-                        <option value="" class="text-lightgrey">Choose an option...</option>
-                        <option value="broken">Broken parts</option>
-                        <option value="missing">Missing parts</option>
-                        <option value="software">Software malfunctions</option>
-                    </select>
-                </div>
-                <div class="flex mx-auto w-[95%] flex-col gap-4">
-                    <label for="additional-info" class="text-lightgrey text-sm text-center">Any additional information about the problem?</label>
-                    <textarea id="additional-info" class="h-40 rounded-xl shadow-md px-4 py-3"></textarea>
-                </div>
-                <div class="flex justify-center pt-6 ">
-                    <button class="bg-[#272727] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-10 w-[60%]">
-                        <img src="../icons/Icon ionic-ios-send.svg" alt="send">
-                        <p class="text-xl w-fit text-offwhite">Send</p>
-                    </button>
-                </div>
-                <div class="flex justify-center pt-4">
-                    <button class="bg-[#626262] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
-                        <img src="../icons/Icon ionic-ios-send.svg" alt="sned">
-                        <p class="text-xl w-fit text-offwhite">Send and open chat</p>
-                    </button>
-                </div>
-            </form>
+    <main class="pt-32 px-8 sm:pt-24">
+        <div class="flex justify-center flex-col w-full">
+            <h2 class="font-bold text-[22px] text-center">Thank you for contacting us!</h2>
+            <p class="text-lightgrey text-center mx-auto w-[85%]" >We will be trying to fix this problem as soon as possible</p>
+        </div>
+        <div class="flex gap-3 py-8 items-center">
+            <img src="../images/Mark.png" alt="engineer" class="rounded-full h-[4.7rem]">
+            <div class="flex flex-col">
+                <p class="text-[22px]">Mark</p>
+                <p class="text-sm text-lightgrey">Located at: Marine-minds, Netherlands</p>
+            </div>
+        </div>
+        <h3 class="font-semibold text-[22px] mx-auto w-fit text-center sm:py-4 md:py-0">We'll be helping you fix this problem!</h3>
+
+        <div class="flex justify-center pt-4">
+            <button class="bg-offwhite shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" class="fill-[#272727]">
+                    <path id="Icon_material-chat_bubble_outline" data-name="Icon material-chat_bubble_outline" d="M30,3H6A3.009,3.009,0,0,0,3,6V33l6-6H30a3.009,3.009,0,0,0,3-3V6A3.009,3.009,0,0,0,30,3Zm0,21H9L6,27V6H30Z" transform="translate(-3 -3)" fill="#484848"/>
+                  </svg>
+                  
+                <p class="text-xl w-fit text-[#272727]">Open chat</p>
+            </button>
+        </div>
+
+        <div class="flex justify-center pt-4">
+            <button class="bg-[#272727] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
+                <img src="../icons/Icon ionic-ios-send.svg" alt="sned">
+                <a href="index.html" class="text-xl w-fit text-offwhite">Go back to home</a>
+            </button>
         </div>
     </main>
 
@@ -90,22 +85,15 @@
                     <div class="flex flex-col w-fit items-center">
                         <div class="h-12 w-12 flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
-                                <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle"
-                                   transform="translate(1.5 1.5)">
-                                    <path id="Path_3" data-name="Path 3" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z"
-                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
-                                          stroke-linejoin="round" stroke-width="3"/>
-                                    <path id="Path_4" data-name="Path 4"
-                                          d="M13.635,13.5A4.5,4.5,0,0,1,22.38,15c0,3-4.5,4.5-4.5,4.5"
-                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
-                                          stroke-linejoin="round" stroke-width="3"/>
-                                    <path id="Path_5" data-name="Path 5" d="M18,25.5h0" transform="translate(-3 -3)"
-                                          fill="none"
-                                          stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle" transform="translate(1.5 1.5)">
+                                    <path id="Path_3" data-name="Path 3" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_4" data-name="Path 4" d="M13.635,13.5A4.5,4.5,0,0,1,22.38,15c0,3-4.5,4.5-4.5,4.5" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_5" data-name="Path 5" d="M18,25.5h0" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
                                 </g>
                             </svg>
                         </div>
-                        <p class="text-lightgrey">Help</p>
+                        <p>Help</p>
+                        <div class="h-[4px] bg-black w-20 rounded"></div>
                     </div>
                 </a>
                 <div class="flex flex-col w-fit items-center">
