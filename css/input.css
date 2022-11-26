@@ -4,20 +4,20 @@
 
 @font-face {
     font-family: "Helvatica Neue";
-    src: url("../fonts/Helvetica-Normal.ttf");
-    font-weight: 400;
+    src: url("../fonts/HelveticaNeue\ Light.ttf");
+    font-weight: 500;
 }
 
 @font-face {
     font-family: "Helvatica Neue";
-    src: url("../fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf");
+    src: url("../fonts/Helvetica\ Neu\ Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Helvatica Neue";
-    src: url("../fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.ttf");
-    font-weight: 500;
+    src: url("../fonts/HelveticaNeue\ Medium.ttf");
+    font-weight: 600;
 }
 
 .no-scrollbar::-webkit-scrollbar {
