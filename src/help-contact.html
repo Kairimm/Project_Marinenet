@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="font-helvatica bg-offwhite">
+    <header>
+        <div class="h-24 flex items-center">
+            <img src="../icons/Marinminds.svg" alt="Marinminds logo" class="mx-auto h-[35%]">
+        </div>
+    </header>
+
+    <main class="px-8">
+        <div>
+            <p class="text-lightgrey text-sm text-center py-2">What issues are you currently facing?</p>
+            <form action="#" class="flex flex-col">
+                <div class="flex mx-auto w-[95%]">
+                    <label for="issues"></label>
+                    <textarea id="issues" class="shadow-md rounded-xl w-full h-24 px-4 py-3"></textarea>
+                </div>
+                <div class="flex flex-col py-8 gap-4 w-[95%] mx-auto">
+                    <label for="cause" class="text-lightgrey text-sm text-center">What part do you think might cause the problem?</label>
+                    <select id="cause" class="h-12 rounded-xl shadow-md px-6">
+                        <option value="" class="text-lightgrey">Choose an option...</option>
+                        <option value="broken">Broken parts</option>
+                        <option value="missing">Missing parts</option>
+                        <option value="software">Software malfunctions</option>
+                    </select>
+                </div>
+                <div class="flex mx-auto w-[95%] flex-col gap-4">
+                    <label for="additional-info" class="text-lightgrey text-sm text-center">Any additional information about the problem?</label>
+                    <textarea id="additional-info" class="h-40 rounded-xl shadow-md px-4 py-3"></textarea>
+                </div>
+                <div class="flex justify-center pt-6 ">
+                    <button class="bg-[#272727] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-10 w-[60%]">
+                        <img src="../icons/Icon ionic-ios-send.svg" alt="send">
+                        <p class="text-xl w-fit text-offwhite">Send</p>
+                    </button>
+                </div>
+                <div class="flex justify-center pt-4">
+                    <button class="bg-[#626262] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
+                        <img src="../icons/Icon ionic-ios-send.svg" alt="sned">
+                        <p class="text-xl w-fit text-offwhite">Send and open chat</p>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-[#FFFFFF] bottom-0 z-40 fixed left-0 w-full">
+        <div class="h-18">
+            <div>
+                <hr class="text-[#EDEDED] h-[4px] bg-[#EDEDED]">
+            </div>
+            <div class="px-10 flex items-center justify-between pt-4 pb-2">
+                <a href="index.html">
+                    <div class="flex flex-col w-fit items-center">
+                        <div class="h-12 w-12 flex items-center justify-center">
+                            <svg class="fill-lightgrey" id="Icon_ionic-md-boat" data-name="Icon ionic-md-boat" xmlns="http://www.w3.org/2000/svg"
+                                 width="38.313" height="36.945" viewBox="0 0 38.313 36.945">
+                                <path id="Path_1" data-name="Path 1"
+                                      d="M6.719,35.6H6.81a10.026,10.026,0,0,0,7.3-3.736,10.05,10.05,0,0,0,7.3,3.759,10.055,10.055,0,0,0,7.3-3.763,10.03,10.03,0,0,0,7.3,3.74h.091l4.383-12.2a2.118,2.118,0,0,0-.092-1.492,1.8,1.8,0,0,0-1.075-.934l-3.268-1.1V11.251a3.769,3.769,0,0,0-3.687-3.779H26.872L25.5,2.813H17.3L15.929,7.472H10.457a3.758,3.758,0,0,0-3.675,3.779v8.629l-3.256,1.1a1.83,1.83,0,0,0-1.088.938A2.063,2.063,0,0,0,2.351,23.4ZM10.46,11.252H32.353V18.66L21.406,15,10.46,18.66Z"
+                                      transform="translate(-2.25 -2.813)"/>
+                                <path id="Path_2" data-name="Path 2"
+                                      d="M28.913,28.688a15.709,15.709,0,0,1-15.024,0s-5.076,4.5-9.39,4.5H6.377a19.808,19.808,0,0,0,7.512-1.8,20.023,20.023,0,0,0,15.024,0,19.807,19.807,0,0,0,7.512,1.8H38.3C34.107,33.188,28.913,28.688,28.913,28.688Z"
+                                      transform="translate(-2.25 3.757)"/>
+                            </svg>
+                        </div>
+                        <p class="text-lightgrey">Home</p>
+                    </div>
+                </a>
+                <a href="status.html">
+                    <div class="flex flex-col w-fit items-center">
+                        <div class="h-12 w-12 flex items-center justify-center">
+                            <svg class="fill-lightgrey" xmlns="http://www.w3.org/2000/svg" width="36.226" height="20.377"
+                                 viewBox="0 0 36.226 20.377">
+                                <path id="Icon_metro-equalizer" data-name="Icon metro-equalizer"
+                                      d="M18.419,6.12V5.554a1.7,1.7,0,0,0-1.7-1.7h-5.66a1.7,1.7,0,0,0-1.7,1.7V6.12H2.571v4.528H9.363v.566a1.7,1.7,0,0,0,1.7,1.7h5.66a1.7,1.7,0,0,0,1.7-1.7v-.566H38.8V6.12H18.419Zm-6.792,4.528V6.12h4.528v4.528ZM32,16.875a1.7,1.7,0,0,0-1.7-1.7h-5.66a1.7,1.7,0,0,0-1.7,1.7v.566H2.571v4.528H22.948v.566a1.7,1.7,0,0,0,1.7,1.7h5.66a1.7,1.7,0,0,0,1.7-1.7v-.566H38.8V17.441H32Zm-6.792,5.094V17.441H29.74v4.528Z"
+                                      transform="translate(-2.571 -3.856)"/>
+                            </svg>
+                        </div>
+                        <p class="text-lightgrey">Status</p>
+                    </div>
+                </a>
+                <a href="help.html">
+                    <div class="flex flex-col w-fit items-center">
+                        <div class="h-12 w-12 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+                                <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle"
+                                   transform="translate(1.5 1.5)">
+                                    <path id="Path_3" data-name="Path 3" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z"
+                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
+                                          stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_4" data-name="Path 4"
+                                          d="M13.635,13.5A4.5,4.5,0,0,1,22.38,15c0,3-4.5,4.5-4.5,4.5"
+                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
+                                          stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_5" data-name="Path 5" d="M18,25.5h0" transform="translate(-3 -3)"
+                                          fill="none"
+                                          stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class="text-lightgrey">Help</p>
+                    </div>
+                </a>
+                <div class="flex flex-col w-fit items-center">
+                    <div class="h-12 w-12 flex items-center justify-center">
+                        <svg class="fill-lightgrey" xmlns="http://www.w3.org/2000/svg" width="39.53" height="26.354"
+                             viewBox="0 0 39.53 26.354">
+                            <path id="Icon_ionic-md-menu" data-name="Icon ionic-md-menu"
+                                  d="M4.5,35.354H44.03V30.961H4.5Zm0-10.981H44.03V19.981H4.5ZM4.5,9v4.392H44.03V9Z"
+                                  transform="translate(-4.5 -9)"/>
+                        </svg>
+                    </div>
+                    <p class="text-lightgrey">Menu</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
