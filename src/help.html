@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <script src="../scripts/popup.js" defer></script>
 </head>
 <body class="font-helvatica bg-offwhite">
-    <header class="bg-[#FFFFFF] shadow-lg">
+    <div id="popup"></div>
+    <header class="bg-[#FFFFFF] shadow-lg" id="header">
         <div class="py-4 px-4 flex items-center gap-4">
             <img src="../images/Mark.png" alt="Mark" class="rounded-full h-16">
             <div class="flex flex-col">
@@ -18,7 +20,7 @@
         </div>
     </header>
 
-    <main class="px-14 py-16 md:max-w-2xl md:mx-auto">
+    <main class="px-14 py-16 md:max-w-2xl md:mx-auto" id="trigger">
         <div>
             <p class="text-lightgrey text-center max-w-[80%] mx-auto">Reach out to your personal yacht manager by:</p>
             <div class="flex justify-center py-4">
@@ -29,7 +31,7 @@
             </div>
             <p class="text-lightgrey text-center max-w-[80%] mx-auto pt-14">Did something break? Let us know and get it fixed!</p>
             <div class="flex justify-center py-4">
-                <a href="help-contact.html" class="bg-offwhite shadow-md rounded-[45px] py-5 w-[90%] gap-10 items-center flex md:justify-center">
+                <a href="help-contact.html" class="bg-offwhite shadow-md rounded-[45px] py-5 w-[90%] gap-10 items-center flex sm:justify-center">
                         <img src="../icons/Icon material-call.svg" alt="Whatsapp" class="pl-10">
                         <p class="text-xl w-fit">Contact</p>
                 </a>
@@ -40,8 +42,8 @@
                     <p class="text-xl w-fit">Open chat</p>
                 </button>
             </div>
-            <p class="text-lightgrey text-center max-w-[90%] mx-auto">Or: <br> Want it instantly fixed?We will send an engineer instantly to fix it!</p>
-            <div class="flex justify-center py-4 pb-[6.5rem] md:pb-0">
+            <p class="text-lightgrey text-center max-w-[90%] mx-auto">Or: <br> Want it instantly fixed? We will send an engineer instantly to fix it!</p>
+            <div class="flex justify-center py-4 pb-[6.5rem] md:pb-0" id="sendbtn">
                 <button class="bg-offwhite shadow-md rounded-[45px] flex items-center justify-center py-5 gap-10 w-[90%]">
                     <img src="../icons/Icon map-postal-code-prefix.svg" alt="Whatsapp">
                     <p class="text-xl w-fit">Send</p>
@@ -74,8 +76,6 @@
                     </div>
                 </a>
                 <a href="status.html">
-
-
                     <div class="flex flex-col w-fit items-center">
                         <div class="h-12 w-12 flex items-center justify-center">
                             <svg class="fill-lightgrey" xmlns="http://www.w3.org/2000/svg" width="36.226" height="20.377"
