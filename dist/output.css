@@ -618,14 +618,6 @@ video {
   height: 100%;
 }
 
-.h-\[80\%\] {
-  height: 80%;
-}
-
-.h-\[70\%\] {
-  height: 70%;
-}
-
 .w-\[95\%\] {
   width: 95%;
 }
@@ -689,14 +681,6 @@ video {
 
 .max-w-\[81\%\] {
   max-width: 81%;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[65\%\] {
-  max-width: 65%;
 }
 
 .transform {
@@ -944,11 +928,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1112,20 +1091,6 @@ video {
   background: #626262;
 }
 
-@media (min-width: 421px) {
-  .sm\:fixed {
-    position: fixed;
-  }
-
-  .sm\:h-\[80\%\] {
-    height: 80%;
-  }
-
-  .sm\:h-\[70\%\] {
-    height: 70%;
-  }
-}
-
 @media (min-width: 630px) {
   .md\:relative {
     position: relative;
@@ -1136,88 +1101,24 @@ video {
     margin-right: auto;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:h-\[\] {
-    height: ;
-  }
-
-  .md\:h-\[30rem\] {
-    height: 30rem;
-  }
-
-  .md\:h-\[50rem\] {
-    height: 50rem;
-  }
-
-  .md\:h-\[40rem\] {
-    height: 40rem;
+  .md\:h-\[37rem\] {
+    height: 37rem;
   }
 
   .md\:h-\[70\%\] {
     height: 70%;
   }
 
-  .md\:h-\[35rem\] {
-    height: 35rem;
-  }
-
-  .md\:h-\[37rem\] {
-    height: 37rem;
-  }
-
-  .md\:h-\[80\%\] {
-    height: 80%;
-  }
-
-  .md\:h-\[85\%\] {
-    height: 85%;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .md\:w-\[85\%\] {
-    width: 85%;
-  }
-
-  .md\:max-w-3xl {
-    max-width: 48rem;
+  .md\:max-w-xl {
+    max-width: 36rem;
   }
 
   .md\:max-w-2xl {
     max-width: 42rem;
   }
 
-  .md\:max-w-\[\] {
-    max-width: ;
-  }
-
-  .md\:max-w-\[60\%\] {
-    max-width: 60%;
-  }
-
-  .md\:max-w-\[65\%\] {
-    max-width: 65%;
-  }
-
-  .md\:max-w-\[70\%\] {
-    max-width: 70%;
-  }
-
   .md\:max-w-\[75\%\] {
     max-width: 75%;
-  }
-
-  .md\:max-w-\[7\] {
-    max-width: 7;
-  }
-
-  .md\:max-w-xl {
-    max-width: 36rem;
   }
 
   .md\:justify-center {
@@ -1229,26 +1130,16 @@ video {
     padding-bottom: 1rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
 
-  .md\:pb-12 {
-    padding-bottom: 3rem;
-  }
-
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
   }
 }
