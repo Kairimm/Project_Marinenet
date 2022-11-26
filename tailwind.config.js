@@ -21,7 +21,7 @@ module.exports = {
         
         'sm': '421px',
   
-        'md': '821px',
+        'md': '630px',
       },
       fontFamily : {
         helvatica  : ['Helvatica Neue', 'sans-serif']
