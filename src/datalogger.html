@@ -4,46 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you</title>
+    <title>Datalogger</title>
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="icon" href="../images/logo.jpg" type="image/jpg">
 </head>
-<body class="font-helvatica bg-offwhite">
+<body class="bg-offwhite font-helvatica">
     <header>
-        <div class="h-24 flex items-center">
-            <img src="../icons/Marinminds.svg" alt="Marinminds logo" class="mx-auto h-[35%]">
-        </div>
+        <div class="bg-gradient-to-t from-offwhite via-offwhite to-transparent h-[16.3rem] md:h-[37rem] sm:h-[20rem] w-full z-0 absolute"></div>
+        <img src="../images/seaMarineminds.png" alt="sea" class="-z-10 absolute w-full h-[16.3rem] md:h-[37rem] sm:h-[20rem]">
+        <nav class="h-16 flex items-center justify-center">
+            <a href="../index.html" class="md:text-4xl text-2xl font-bold pl-10 w-fit relative">Home</a>
+            <img src="../icons/Marinminds.svg" alt="Marinminds logo" class="mx-auto h-[35%] text-center relative">
+        </nav>
+        <img src="../images/yacht.svg" alt="yacht" class="mx-auto w-[88%] relative">
+        <div class="w-[40%] h-1 bg-lightgrey mx-auto rounded bg-[#CCCCCC] z-10 relative"></div>
+        <h1 class="mx-auto text-4xl w-fit mt-3 relative font-semibold">My T246 Yacht</h1>
     </header>
 
-    <main class="pt-32 px-8 sm:pt-24 pb-[8rem] md:max-w-2xl md:mx-auto">
-        <div class="flex justify-center flex-col ">
-            <h2 class="font-bold text-[22px] text-center">Thank you for contacting us!</h2>
-            <p class="text-lightgrey text-center mx-auto w-[85%]" >We will be trying to fix this problem as soon as possible</p>
-        </div>
-        <div class="flex gap-3 py-8 items-center md:w-[85%] md:justify-center">
-            <img src="../images/Mark.png" alt="engineer" class="rounded-full h-[4.7rem]">
-            <div class="flex flex-col">
-                <p class="text-[22px]">Mark</p>
-                <p class="text-sm text-lightgrey">Located at: Marine-minds, Netherlands</p>
+    <main class="pt-14 pb-[8rem] px-8 md:py-4 relative">
+        <div class="flex flex-col gap-6 md:grid-cols-2 md:grid">
+            <div class="border-solid border-[2px] border-lightgrey px-2 py-2">
+                <p class="text-lg">Alternator voltage</p>
+                <img src="../images/alternatorvoltage.png" alt="voltage">
             </div>
-        </div>
-        <h3 class="font-semibold text-[22px] mx-auto w-fit text-center sm:py-4 md:py-0">We'll be helping you fix this problem!</h3>
-
-        <div class="flex justify-center pt-4">
-            <button class="bg-offwhite shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" class="fill-[#272727]">
-                    <path id="Icon_material-chat_bubble_outline" data-name="Icon material-chat_bubble_outline" d="M30,3H6A3.009,3.009,0,0,0,3,6V33l6-6H30a3.009,3.009,0,0,0,3-3V6A3.009,3.009,0,0,0,30,3Zm0,21H9L6,27V6H30Z" transform="translate(-3 -3)" fill="#484848"/>
-                  </svg>
-                  
-                <p class="text-xl w-fit text-[#272727]">Open chat</p>
-            </button>
-        </div>
-
-        <div class="flex justify-center pt-4">
-            <button class="bg-[#272727] shadow-md rounded-[45px] flex items-center justify-center py-3 gap-4 w-[80%]">
-                <img src="../icons/Icon ionic-ios-send.svg" alt="sned">
-                <a href="../index.html" class="text-xl w-fit text-offwhite">Go back to home</a>
-            </button>
+            <div class="border-solid border-[2px] border-lightgrey px-2 py-2">
+                <p class="text-lg">Temperature levels</p>
+                <img src="../images/tl.png" alt="temperature levels">
+            </div>
+            <div class="border-solid border-[2px] border-lightgrey px-2 py-2">
+                <p class="text-lg">Revolutions</p>
+                <img src="../images/rev.png" alt="Revolutions">
+            </div>
+            <div class="border-solid border-[2px] border-lightgrey px-2 py-2">
+                <p class="text-lg">Boost pressure levels</p>
+                <img src="../images/bpl.png" alt="boost pressure">
+            </div>
         </div>
     </main>
 
@@ -86,15 +81,22 @@
                     <div class="flex flex-col w-fit items-center">
                         <div class="h-12 w-12 flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
-                                <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle" transform="translate(1.5 1.5)">
-                                    <path id="Path_3" data-name="Path 3" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                    <path id="Path_4" data-name="Path 4" d="M13.635,13.5A4.5,4.5,0,0,1,22.38,15c0,3-4.5,4.5-4.5,4.5" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                    <path id="Path_5" data-name="Path 5" d="M18,25.5h0" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle"
+                                   transform="translate(1.5 1.5)">
+                                    <path id="Path_3" data-name="Path 3" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z"
+                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
+                                          stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_4" data-name="Path 4"
+                                          d="M13.635,13.5A4.5,4.5,0,0,1,22.38,15c0,3-4.5,4.5-4.5,4.5"
+                                          transform="translate(-3 -3)" fill="none" stroke="gray" stroke-linecap="round"
+                                          stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Path_5" data-name="Path 5" d="M18,25.5h0" transform="translate(-3 -3)"
+                                          fill="none"
+                                          stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
                                 </g>
                             </svg>
                         </div>
-                        <p>Help</p>
-                        <div class="h-[4px] bg-black w-20 rounded"></div>
+                        <p class="text-lightgrey">Help</p>
                     </div>
                 </a>
                 <a href="menu.html"><div class="flex flex-col w-fit items-center">
