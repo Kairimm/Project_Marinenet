@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarineNet</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../images/logo.jpg" type="image/jpg">
+    <script src="../scripts/status.js" defer></script>
 </head>
 <body class="font-helvatica bg-offwhite">
 <header>
@@ -25,18 +27,18 @@
         <h2 class="text-2xl">Yacht status</h2>
         <div class="flex justify-between">
             <h3 class="text-sm text-lightgrey">Last updated: 18 minutes ago</h3>
-            <img src="../icons/Icon%20material-refresh.svg" alt="refresh">
+            <img src="../icons/Icon%20material-refresh.svg" alt="refresh" id="refresh">
         </div>
     </div>
     <div class="w-[80%] mx-auto flex flex-col">
         <div class="flex items-center justify-center gap-4 mt-4">
             <div class="bg-orange bg-opacity-[54%] h-10 flex px-4 gap-4 rounded-xl items-center shadow-md">
                 <img src="../icons/Icon%20awesome-gas-pump.svg" alt="gaspump" class="h-7 w-7">
-                <h3 class="text-2xl font-bold text-[#484848]">53%</h3>
+                <h3 class="text-2xl font-bold text-[#484848]" id="gas">53%</h3>
             </div>
             <div class="bg-green bg-opacity-[54%] h-10 flex px-4 gap-4 rounded-xl items-center shadow-md">
-                <img src="../icons/Icon%20open-bolt.svg" alt="gaspump" class="h-7 w-7">
-                <h3 class="text-2xl font-bold text-[#484848]">53%</h3>
+                <img src="../icons/Icon%20open-bolt.svg" alt="fuel" class="h-7 w-7">
+                <h3 class="text-2xl font-bold text-[#484848]" id="fuel">53%</h3>
             </div>
         </div>
         <div class="bg-blue bg-opacity-[54%] h-16 rounded-xl mt-4 w-[80%] mx-auto shadow-md flex justify-around items-center">

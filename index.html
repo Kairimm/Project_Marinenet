@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarineNet</title>
     <link rel="stylesheet" href="/dist/output.css">
+    <link rel="icon" href="./images/logo.jpg" type="image/jpg">
+    <script src="script.js" defer></script>
 </head>
 <body class="font-helvatica bg-offwhite">
 <header>
+    <div id="triggerdiv"></div>
     <div class="bg-gradient-to-t from-offwhite via-offwhite to-transparent h-[16.3rem] md:h-[37rem] sm:h-[20rem] w-full z-0 absolute"></div>
     <img src="/images/seaMarineminds.png" alt="sea" class="-z-10 absolute w-full h-[16.3rem] md:h-[37rem] sm:h-[20rem]">
     <nav class="h-16 flex items-center ">
@@ -48,7 +51,7 @@
                 </div>
                 <p class="text-[#484848]">1m</p>
             </div>
-            <div class="bg-red bg-opacity-[27%] px-4 py-2 rounded-xl flex justify-between items-center">
+            <div class="bg-red bg-opacity-[27%] px-4 py-2 rounded-xl flex justify-between items-center" id="triggerAlarm">
                 <div class="flex w-fit gap-x-4">
                     <img src="/icons/Icon metro-warning.svg" alt="check">
                     <p class="text-[#484848] text-xl">Alarm triggered</p>

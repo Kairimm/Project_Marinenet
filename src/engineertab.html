@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Engineers Tab</title>
-  <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../images/logo.jpg" type="image/jpg">
     <script src="../scripts/engineer.js" defer></script>
 </head>
 <body>
 <main>
     <div class="grid grid-cols-4">
-        <div class="bg-[#FAFAFA] h-screen col col-span-1 drop-shadow-lg">
-            <div class="flex bg-[#F0F0F0] shadow-lg p-3  items-center">
-                <img src="../images/Mark.svg" alt="Mark">
-                <div class="ml-10">
-                    <h2 class="text-3xl">Hendrik</h2>
-                    <h3 class="text-[#717171] text-sm">Owns the T246 YAMAHA Yacht</h3>
+        <div class="bg-[#FAFAFA] h-screen col col-span-1 drop-shadow-lg flex flex-col justify-between">
+            <div class="flex flex-col">
+                <div class="flex bg-[#F0F0F0] shadow-lg p-3  items-center" id="hendrik">
+                    <img src="../images/Mark.svg" alt="Mark">
+                    <div class="ml-10">
+                        <h2 class="text-3xl">Hendrik</h2>
+                        <h3 class="text-[#717171] text-sm">Owns the T246 YAMAHA Yacht</h3>
+                    </div>
+                </div>
+                <div class="flex bg-[#FFFFFF] shadow-lg p-3  items-center" id="mack">
+                    <img src="../images/Mack.svg" alt="Mark">
+                    <div class="ml-10">
+                        <h2 class="text-3xl">Mack</h2>
+                        <h3 class="text-[#717171] text-sm">Owns the X15 VOLVO Yacht</h3>
+                    </div>
                 </div>
             </div>
-            <div class="flex bg-[#FFFFFF] shadow-lg p-3  items-center">
-                <img src="../images/Mack.svg" alt="Mark">
-                <div class="ml-10">
-                    <h2 class="text-3xl">Mack</h2>
-                    <h3 class="text-[#717171] text-sm">Owns the X15 VOLVO Yacht</h3>
-                </div>
-            </div>
-            <div class="flex bg-[#FFFFFF] shadow-lg p-3 items-center mt-[31rem]">
-                <img src="../icons/settings-svgrepo-com.svg" alt="settings" class="h-[15%] w-[15%]">
+            <div class="flex bg-[#FFFFFF] shadow-lg items-center">
+                <img src="../icons/settings-svgrepo-com.svg" alt="settings" class="h-[28%] w-[28%]">
                 <h2 class="text-2xl mx-auto">Settings</h2>
             </div>
         </div>
-        <div class="col col-span-3 px-8 py-4">
+        <div class="col-span-3 px-8 py-4">
             <div class="h-24 flex items-center">
-                <p class="text-6xl">Hendrik</p>
+                <p class="text-6xl" id="owner">Hendrik</p>
             </div>
             <div class="grid grid-cols-2">
-                <div>
-                    <div>
-                        <h3 class="text-2xl text-[#898989]">Possible solutions:</h3>
-                        <div class="flex flex-col p-2 w-[22rem] bg-[#F7F7F7] shadow-lg rounded-2xl buttons_js max-h-[80vh] overflow-auto">
-
-                            <div class="bg-[#4CBB17] w-[12%] rounded-2xl flex items-center justify-center p-3 add_idea">
-                                <img src="../icons/plus.svg" alt="plus">
-                            </div>
+                <div class="col-span-1 max-w-[90%]">
+                    <h3 class="text-2xl text-[#898989]">Possible solutions:</h3>
+                    <div class="flex flex-col p-2 w-[22rem] bg-[#F7F7F7] shadow-lg rounded-2xl buttons_js md:max-h-[80vh] max-h-[22vh] overflow-auto">
+                        <div class="bg-[#4CBB17] w-[12%] rounded-2xl flex items-center justify-center p-3 add_idea">
+                            <img src="../icons/plus.svg" alt="plus">
                         </div>
                     </div>
                 </div>
-                <div>
-                    col-2
+                <div class="flex gap-y-10 flex-col col-span-1">
+                    <div class="border-[1px] border-lightgrey rounded-lg px-1">
+                        <p>Boost pressure levels</p>
+                        <img src="../images/bpl.png" alt="boost pressure graph" class="h-[17rem]">
+                    </div>
+                    <div class="border-[1px] border-lightgrey rounded-lg px-1">
+                        <p>Temperature levels</p>
+                        <img src="../images/tl.png" alt="temperature levels" class="h-[17rem]">
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,11 +1,13 @@
 let buttons_div = document.querySelector('.buttons_js');
 let amountButtons = 5;
 let buttons_arr = [];
+
 let suggestions = ['Part broken nearside engine',
     'Spark-plugs are worn out',
     "Broken drive belt",
     "Propeller broke",
     "Out of coolant so engine overheats"];
+
 let srcArr = [
     '../icons/checkboxEng.svg',
     '../icons/checkEng.svg',
@@ -14,6 +16,24 @@ let srcArr = [
 
 let add_idea = document.querySelector('.add_idea');
 let main = document.querySelector('main');
+
+const hendrik = document.getElementById('hendrik');
+const mack = document.getElementById('mack');
+let owner = document.getElementById('owner');
+const standard = "flex bg-[#FFFFFF] shadow-lg p-3  items-center cursor-pointer";
+const selected = "flex bg-[#F0F0F0] shadow-lg p-3  items-center cursor-pointer";
+
+mack.addEventListener('click', () => {
+    owner.innerText = 'Mack';
+    hendrik.className = standard;
+    mack.className = selected
+});
+
+hendrik.addEventListener('click', () => {
+    owner.innerText = 'Hendrik';
+    mack.className = standard;
+    hendrik.className = selected;
+});
 
 add_idea.addEventListener('click', () => {
     let coverUp = createElementWClass('div', ['bg-[#DCDCDC]', 'bg-opacity-70', 'w-full', 'fixed', 'z-50', 'h-[200vh]', 'flex', '-top-[25rem]', 'justify-center', 'items-center']);
@@ -70,8 +90,8 @@ function createImgWSrc(classArr, src) {
 
 function test(buttons_arr) {
     buttons_arr.forEach(button => {
-        console.log(button);
         button.addEventListener('click', () => {
+            console.log(button);
             switch (button.classList[2]) {
                 case '0':
                     button.src = srcArr[1];
