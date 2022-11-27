@@ -15,14 +15,6 @@ module.exports = {
       offwhite : '#FAFAFA',
       black : '#000000'
     },
-    screens : {
-      'xs' : '376px',
-      
-      'sm': '422px',
-      'max': {'max': '500px'},
-
-      'md': '630px',
-    },
     extend: {
       screens : {
         'xs' : '376px',
