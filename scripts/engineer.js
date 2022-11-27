@@ -18,8 +18,8 @@ let owner = document.getElementById('owner');
 
 const hendrik = document.getElementById('hendrik');
 const mack = document.getElementById('mack');
-const standard = "flex bg-[#FFFFFF] shadow-lg p-3  items-center cursor-pointer";
-const selected = "flex bg-[#F0F0F0] shadow-lg p-3  items-center cursor-pointer";
+const standard = "flex bg-[#FFFFFF] shadow-lg p-3  items-center cursor-pointer md:flex-row flex-col";
+const selected = "flex bg-[#F0F0F0] shadow-lg p-3  items-center cursor-pointer md:flex-row flex-col";
 
 show(suggestions);
 
@@ -31,18 +31,19 @@ hendrik.addEventListener('click', () => {
     setUser(hendrik, mack)
 });
 
+function setUser(a, b) {
+    owner.innerText = `${a.id[0].toUpperCase() + a.id.slice(1)}`;
+    b.className = standard;
+    a.className = selected;
+    buttons_div.innerHTML = '';
+    show(suggestions);
+}
+
 function createEl(input, element, cName = null) {
     const e = document.createElement(element);
     e.innerText = input;
     e.className = cName;
     return e;
-}
-function setUser(a, b) {
-    owner.innerText = `${a.id[0].toUpperCase() + a.id.slice(1)}`;
-    b.className = standard;
-    a.className = selected;
-
-    window.location.reload();
 }
 
 function show(suggestions) {
@@ -50,7 +51,6 @@ function show(suggestions) {
         const box = createEl('', 'div', 'flex flex-row items-center justify-between')
         const text = createEl(suggestions[i], 'p', 'text-lg');
         let value = parseInt(Object.keys(srcArr)[0]);
-    
         let image = createEl('', 'img', 'h-[10%] w-[10%] cursor-pointer');
         image.src = srcArr[value];
         
@@ -79,7 +79,7 @@ add_idea.addEventListener('click', () => {
     popup.appendChild(suggestbtn);
 
     suggestbtn.addEventListener('click', () => {
-        suggestions.push(input.value);
+        suggestions.unshift(input.value);
         coverUp.remove();
         buttons_div.innerHTML = '';
         show(suggestions);
