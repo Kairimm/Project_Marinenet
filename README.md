@@ -1,3 +1,3 @@
 # Project_Marinenet
 
-Results can be found on [https://marinenet.netlify.app/].
+Results can be found on [Marinet](https://marinenet.netlify.app/).
